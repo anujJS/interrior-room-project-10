@@ -1,0 +1,173 @@
+body {
+  background-image: linear-gradient(
+      to left,
+      rgba(55, 53, 53, 0.297),
+      rgba(55, 53, 53, 0.297)
+    ),
+    url(./photo/image\ -backgroud.jpg);
+
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+}
+
+.logo {
+  position: absolute;
+  width: 150px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.Call {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.bulb {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  padding: 5px 20px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.puzzle {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  padding: 5px 20px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+nav {
+  position: absolute;
+  margin-top: 50px;
+}
+
+div ul li {
+  list-style: none;
+  /* border: 2px solid white; */
+  display: flex;
+  display: inline-block;
+  flex-direction: row;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+div ul {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+.navEnd {
+  display: flex;
+  margin-left: 1000px;
+  margin-top: -90px;
+  font-weight: bold;
+}
+
+hr {
+  width: 1000px;
+  margin-left: 255px;
+}
+
+main {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 80px;
+  /* border: 2px solid white; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90vw;
+}
+
+.left {
+  /* border: 2px solid crimson; */
+  height: 450px;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+div button {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 20px 80px;
+  border-radius: 35px;
+  text-transform: uppercase;
+}
+
+.puzzleMessege {
+  /* border:  1px solid #FFF; */
+  margin-left: 300px;
+  font-weight: bold;
+  display: inline-block;
+  width: 250px;
+  padding: 20px 30px;
+  background-color: #ffffff3d;
+}
+
+.ideaMessege {
+  position: absolute;
+  font-weight: bold;
+  display: inline-block;
+  width: 250px;
+  height: 130px;
+  padding: 10px 30px;
+  background-color: #ffffff3d;
+  top: 250px;
+  right: 500px;
+}
+
+.ideaMessege::after {
+  content: "";
+  display: inline-block;
+  border-top: 0.2rem solid #ffffffc0;
+  width: 6rem;
+  margin: 0 1rem;
+  margin-left: 280px;
+  margin-bottom: 80px;
+  transform: translateY(-1rem);
+}
+
+.line {
+  position: absolute;
+  display: inline-block;
+  border-left: 3px solid #ffffffc0;
+  height: 100px;
+  top: 156px;
+  right: 255px;
+}
+
+.dot {
+  position: absolute;
+  top: 250px;
+  right: 250px;
+  height: 10px;
+  width: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  position: absolute;
+  left: 400px;
+  height: 10px;
+  width: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
